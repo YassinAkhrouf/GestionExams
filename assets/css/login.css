@@ -1,0 +1,88 @@
+form {
+    border: 3px solid #f1f1f1;
+    width: 350px;
+    height: 500px;
+    display: block;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgb(204, 205, 210, 0.3);
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+  }
+  
+h2, h3{
+  color: #00008B;
+}
+
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  input[type=text] {
+    background-color: white;
+    background-image: url('../img/icon-utilisateur.png');
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+  input[type=password] {
+    background-color: white;
+    background-image: url('../img/icon-cle.png');
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+
+  button {
+    background-color: #2FB5B8;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  
+  .welcome {
+    text-align: center;
+    margin: 20px 0  5px 0;
+  }
+  
+  
+  .container {
+    padding: 14px;
+  }
+  
+
+  
+html, body{
+  
+  height: 100%;
+  margin: 0;
+}
+.full-height {
+  height: 100%;
+  background: linear-gradient(to bottom left, #31ACB3, white);
+
+}
+
+@media screen and (max-width: 360px) {
+form{
+  width: 96%;
+}
+}
