@@ -9,7 +9,7 @@
 </head>
 <body>
 <div class="full-height">
-  <form action="/verification.php" method="post">
+  <form action="./verification.php" method="post">
     <div class="welcome">
     <img src="assets/img/ensa-logo.png" alt="ENSA TETOUAN" width="70" height="90"> 
       <h2>ENSA DE TETOUAN</h2>
